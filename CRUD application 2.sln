@@ -5,7 +5,13 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD application 2", "CRUD application 2.csproj", "{D44C1C21-0289-4DD0-B139-6825EE5C13B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Usercontrollertest", "..\Usercontrollertest\Usercontrollertest.csproj", "{CFF9A89E-62B9-4074-8E3E-47FAF1BE4CFA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{92384A6D-95A1-429A-8C53-44B6C1AF1D33}"
+	ProjectSection(SolutionItems) = preProject
+		deploy.json = deploy.json
+		deploy.parameters.json = deploy.parameters.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Usercontrollertest", "Usercontrollertest\Usercontrollertest.csproj", "{CFF9A89E-62B9-4074-8E3E-47FAF1BE4CFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
